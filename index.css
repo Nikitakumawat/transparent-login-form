@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(flower.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid white;
+    margin-bottom: 22px;
+    padding: 13px 0;
+    display: inline-block;
+    width: 50%;
+    font-family: 'Lora', serif;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid white;
+    margin: 22px 0px;
+}
+.box input{
+    font-family: 'Dosis', sans-serif;
+    background: none;
+    width: 75%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid pink;
+    font-size: 18px;
+    background: none;
+    color: black;
+}
+.btn:hover{
+    color: rgb(247, 71, 100);
+    background: white;
+    opacity: 0.5;
+}
